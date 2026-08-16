@@ -37,7 +37,7 @@ After installation, open Termux and update packages:
 
 ---
 ## Install Basic Development Tools
-
+```md
 ### Install Git
 
 Git is used to track code changes and upload projects to GitHub.
@@ -48,7 +48,7 @@ Install Git:
 pkg install git
 
 ---
-
+```md
 ### Install Nano Editor
 
 Nano is a terminal text editor used to create and edit files.
@@ -66,6 +66,7 @@ Check Git installation:
 git --version
 
 ---
+```md
 ##Install Python
 Python allows you to create and run Python applications.
 
@@ -80,7 +81,7 @@ Check Python:
 python --version
 
 ---
-
+```md
 ##Install Node.js
 Node.js allows you to build JavaScript applications.
 
