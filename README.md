@@ -1,27 +1,77 @@
 # ⚡ Divinity Mobile Git Guide
 
-## No PC, No Problem
+## No PC. No Problem.
 
-Learn how to code, manage files, and push projects to GitHub using only your mobile phone.
+A beginner-friendly guide teaching developers how to code, manage projects, and push repositories using only a mobile phone.
 
-## Tools
+---
+
+# 📱 What You Will Learn
+
+✅ Setting up Termux  
+✅ Installing development tools  
+✅ Learning Git commands  
+✅ Creating mobile projects  
+✅ Connecting to GitHub  
+✅ Pushing code from your phone  
+
+---
+
+# 📚 Learning Path
+
+## 01 - Installing Termux
+
+Learn how to prepare your mobile development environment.
+
+📖 Lesson:
+01-install-termux.md
+
+---
+
+## 02 - Git Setup
+
+Learn Git configuration and basic commands.
+
+📖 Lesson:
+02-git-setup.md
+
+---
+
+## 03 - Creating Projects
+
+Learn how to create and manage files from mobile.
+
+📖 Lesson:
+03-create-project.md
+
+---
+
+## 04 - Push to GitHub
+
+Learn how to upload your projects online.
+
+📖 Lesson:
+04-push-to-github.md
+
+---
+
+# 🛠 Tools Used
 
 - Termux
 - Git
+- GitHub
 - Nano Editor
 
-## What You Will Learn
+---
 
-✓ Setting up Git on mobile  
-✓ Creating repositories  
-✓ Adding files  
-✓ Making commits  
-✓ Pushing projects to GitHub  
+# 🚀 Learning Mission
 
-## Mobile Development Workflow
+Mobile devices can become powerful development tools.
 
+Code from anywhere.
+Build anything.
 
-# ⚡ DIVINITY MOBILE GIT GUIDE
+---
 
 ## Mission
 
@@ -29,33 +79,4 @@ Code First.
 Security Always.  
 Impact Forever.
 
----
-
-## About
-
-A mobile-first guide showing developers how to create, manage, and push projects to Git repositories using only a smartphone.
-
-No PC. No problem.
-
-Learn Git, GitHub, and development workflows directly from Termux and mobile tools.
-
----
-
-## Topics
-
-- Installing Git on mobile
-- Creating repositories
-- Adding files
-- Making commits
-- Pushing to GitHub
-- Managing projects from Termux
-- Mobile development workflow
-
----
-
-## Built With
-
-- Termux
-- Git
-- GitHub
-- Mobile Development
+⚡ Divinity Mobile Git Guide
