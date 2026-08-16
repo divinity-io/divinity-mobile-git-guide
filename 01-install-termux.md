@@ -35,45 +35,75 @@ Install Termux from the official source.
 
 After installation, open Termux and update packages:
 
+---
+## Install Basic Development Tools
 
-##Install Basic Development Tools
+### Install Git
+
+Git is used to track code changes and upload projects to GitHub.
 
 Install Git:
+
+```bash
 pkg install git
 
-Install Nano editor:
+---
+
+### Install Nano Editor
+
+Nano is a terminal text editor used to create and edit files.
+
+Install Nano:
+
+```bash
 pkg install nano
 
+---
+
 Check Git installation:
+
+```bash
 git --version
 
+---
 ##Install Python
 Python allows you to create and run Python applications.
 
 Install Python:
+
+```bash
 pkg install python
 
 
 Check Python:
+```bash
 python --version
+
+---
 
 ##Install Node.js
 Node.js allows you to build JavaScript applications.
 
 Install Node.js:
+
+```bash
 pkg install nodejs
 
 Check Node.js:
+
+```bash
 node --version
 
+---
+
+
+```md
 ##Enable Storage Access
 
 Allow Termux to access your phone storage:
+
+```bash
 termux-setup-storage
 
 Grant permission when Android asks.
 
-
-```md
-```bash
-pkg update && pkg upgrade
