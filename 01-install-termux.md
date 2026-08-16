@@ -29,16 +29,19 @@ Before starting:
 
 ---
 
-## Installing Termux
+# Updating Termux
 
-Install Termux from the official source.
+Before installing tools, update Termux packages.
 
-After installation, open Termux and update packages:
+```bash
+pkg update && pkg upgrade
+```
 
 ---
-## Install Basic Development Tools
-```md
-### Install Git
+
+# Install Basic Development Tools
+
+## Install Git
 
 Git is used to track code changes and upload projects to GitHub.
 
@@ -46,10 +49,17 @@ Install Git:
 
 ```bash
 pkg install git
+```
+
+Check Git installation:
+
+```bash
+git --version
+```
 
 ---
-```md
-### Install Nano Editor
+
+## Install Nano Editor
 
 Nano is a terminal text editor used to create and edit files.
 
@@ -57,54 +67,103 @@ Install Nano:
 
 ```bash
 pkg install nano
+```
 
 ---
 
-Check Git installation:
+## Install Python
 
-```bash
-git --version
-
----
-```md
-##Install Python
 Python allows you to create and run Python applications.
 
 Install Python:
 
 ```bash
 pkg install python
-
+```
 
 Check Python:
+
 ```bash
 python --version
+```
 
 ---
-```md
-##Install Node.js
+
+## Install Node.js
+
 Node.js allows you to build JavaScript applications.
 
 Install Node.js:
 
 ```bash
 pkg install nodejs
+```
 
 Check Node.js:
 
 ```bash
 node --version
+```
 
 ---
 
-
-```md
-##Enable Storage Access
+## Enable Storage Access
 
 Allow Termux to access your phone storage:
 
 ```bash
 termux-setup-storage
+```
 
 Grant permission when Android asks.
 
+---
+
+## Install Additional Useful Tools
+
+Install curl:
+
+```bash
+pkg install curl
+```
+
+Install wget:
+
+```bash
+pkg install wget
+```
+
+Install unzip:
+
+```bash
+pkg install unzip
+```
+
+Install tree:
+
+```bash
+pkg install tree
+```
+
+---
+
+## Verify Installed Tools
+
+Check installed versions:
+
+```bash
+git --version
+python --version
+node --version
+nano --version
+```
+
+---
+
+## Mission
+
+Code First.  
+Security Always.  
+Impact Forever.
+
+⚡ Divinity Mobile Git Guide
